@@ -5,11 +5,11 @@ cpus: 1
 provider: virtualbox
 
 folders:
-    - map: .
+    - map: /Users/shawn/Sites/portfolio
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.test
+    - map: homestead.localhost
       to: /home/vagrant/Code/Project/public
 
 databases:
